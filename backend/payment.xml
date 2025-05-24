@@ -1,0 +1,58 @@
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <CstmrCdtTrfInitn>
+        <GrpHdr>
+            <MsgId>MSG20250524-001</MsgId>
+            <CreDtTm>2025-05-24T10:00:00</CreDtTm>
+            <NbOfTxs>1</NbOfTxs>
+            <CtrlSum>1000.00</CtrlSum>
+            <InitgPty>
+                <Nm>Example Corporation</Nm>
+            </InitgPty>
+        </GrpHdr>
+        <PmtInf>
+            <PmtInfId>PMTINF20250524-001</PmtInfId>
+            <PmtMtd>TRF</PmtMtd>
+            <ReqdExctnDt>2025-05-25</ReqdExctnDt>
+            <Dbtr>
+                <Nm>Example Corporation</Nm>
+            </Dbtr>
+            <DbtrAcct>
+                <Id>
+                    <IBAN>DE89370400440532013000</IBAN>
+                </Id>
+                <Ccy>EUR</Ccy>
+            </DbtrAcct>
+            <DbtrAgt>
+                <FinInstnId>
+                    <BIC>DEUTDEFFXXX</BIC>
+                </FinInstnId>
+            </DbtrAgt>
+            <ChrgBr>SLEV</ChrgBr>
+            <CdtTrfTxInf>
+                <PmtId>
+                    <InstrId>INSTR20250524-001</InstrId>
+                    <EndToEndId>E2E20250524-001</EndToEndId>
+                </PmtId>
+                <Amt>
+                    <InstdAmt Ccy="EUR">1000.00</InstdAmt>
+                </Amt>
+                <CdtrAgt>
+                    <FinInstnId>
+                        <BIC>INGBNL2A</BIC>
+                    </FinInstnId>
+                </CdtrAgt>
+                <Cdtr>
+                    <Nm>John Doe</Nm>
+                </Cdtr>
+                <CdtrAcct>
+                    <Id>
+                        <IBAN>NL91ABNA0417164300</IBAN>
+                    </Id>
+                </CdtrAcct>
+                <RmtInf>
+                    <Ustrd>Invoice Payment #12345</Ustrd>
+                </RmtInf>
+            </CdtTrfTxInf>
+        </PmtInf>
+    </CstmrCdtTrfInitn>
+</Document>

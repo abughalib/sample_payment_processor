@@ -1,0 +1,39 @@
+INFO:main:Received request to upload payment.
+INFO:main:Attempting XML validation...
+INFO:main:XML validation successful.
+INFO:main:Parsing XML content...
+INFO:main:XML parsing successful.
+INFO:main:Storing parsed data in database...
+INFO:main:Document 3059104f-8194-43e5-8e1d-a698d057376a: Status changed to RECEIVED. Details: Payment XML received and validated.
+INFO:main:Document 3059104f-8194-43e5-8e1d-a698d057376a: Status changed to PARSED. Details: XML content successfully parsed.
+INFO:main:Document 3059104f-8194-43e5-8e1d-a698d057376a: Status changed to STORED. Details: Payment data successfully stored in database.
+INFO:main:Applying rules for payment document ID: 3059104f-8194-43e5-8e1d-a698d057376a
+INFO:main:Document 3059104f-8194-43e5-8e1d-a698d057376a: Status changed to RULES_CHECKED. Details: No active rules applied or no conditions met.
+INFO:main:Finished applying rules for payment document ID: 3059104f-8194-43e5-8e1d-a698d057376a
+INFO:main:Received request to upload payment.
+INFO:main:Attempting XML validation...
+ERROR:main:Payment processing failed due to validation error: XML validation failed: 
+INFO:main:Received request to upload payment.
+INFO:main:Attempting XML validation...
+INFO:main:XML validation successful.
+INFO:main:Parsing XML content...
+INFO:main:XML parsing successful.
+INFO:main:Storing parsed data in database...
+INFO:main:Document 9f2f56f5-d731-45f1-a036-328abd05563b: Status changed to RECEIVED. Details: Payment XML received and validated.
+INFO:main:Document 9f2f56f5-d731-45f1-a036-328abd05563b: Status changed to PARSED. Details: XML content successfully parsed.
+INFO:main:Document 9f2f56f5-d731-45f1-a036-328abd05563b: Status changed to STORED. Details: Payment data successfully stored in database.
+INFO:main:Applying rules for payment document ID: 9f2f56f5-d731-45f1-a036-328abd05563b
+INFO:main:Document 9f2f56f5-d731-45f1-a036-328abd05563b: Status changed to RULES_CHECKED. Details: No active rules applied or no conditions met.
+INFO:main:Finished applying rules for payment document ID: 9f2f56f5-d731-45f1-a036-328abd05563b
+INFO:main:Received request to upload payment.
+INFO:main:Attempting XML validation...
+INFO:main:XML validation successful.
+INFO:main:Parsing XML content...
+INFO:main:XML parsing successful.
+INFO:main:Storing parsed data in database...
+INFO:main:Document 25284888-5876-4c98-95c6-360af2456c87: Status changed to RECEIVED. Details: Payment XML received and validated.
+INFO:main:Document 25284888-5876-4c98-95c6-360af2456c87: Status changed to PARSED. Details: XML content successfully parsed.
+INFO:main:Document 25284888-5876-4c98-95c6-360af2456c87: Status changed to STORED. Details: Payment data successfully stored in database.
+INFO:main:Applying rules for payment document ID: 25284888-5876-4c98-95c6-360af2456c87
+INFO:main:Document 25284888-5876-4c98-95c6-360af2456c87: Status changed to RULES_CHECKED. Details: No active rules applied or no conditions met.
+INFO:main:Finished applying rules for payment document ID: 25284888-5876-4c98-95c6-360af2456c87
